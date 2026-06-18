@@ -18,7 +18,7 @@ const renderText = (text,className, baseWeight = 400) => {
 }
 
 const setupTextHover = (container,type) => {
-    if(!container) return;
+    if(!container) return() =>{};
     const animateLetters = (letter, weight, duration = 0.25) => {
         return gsap.to(letter, {duration,ease:'power2.out', fontVariationSettings:`'wght' ${weight}`})
     }

@@ -12,16 +12,16 @@ const Contact = () => {
 
       <div className="space-y-5 p-5">
         <img
-          src="https://avatars.githubusercontent.com/u/235868670?v=4"
-          alt="Kishan Jograjiya"
+          src="public/images/profile.png"
+          alt="Harshit_gautam"
           className="w-20 rounded-full"
         />
 
         <h3>Let's Connect</h3>
         <p>Got an idea? A bug to squash? Or just wanna talk tech? I'm in.</p>
         <p>
-          <a href="mailto:kishanjograjiya.dev@gmail.com">
-            kishanjograjiya.dev@gmail.com
+          <a href="mailto:gautamharshit1956@gmail.com">
+              gautamharshit1956@gmail.com
           </a>
         </p>
 

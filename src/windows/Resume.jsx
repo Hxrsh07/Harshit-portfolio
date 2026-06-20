@@ -6,7 +6,7 @@ import { WindowControls } from "#components";
 import WindowWrapper from "#hoc/WindowWrapper";
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  "pdfjs-dist/build/pdf.worker.min.mjs",
+  "public/files/harsh_new_layout.pdf",
   import.meta.url
 ).toString();
 

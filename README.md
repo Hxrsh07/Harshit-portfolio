@@ -1,16 +1,30 @@
-# React + Vite
+# 🍎 macOS-Inspired Portfolio
+<img width="100%" alt="image" src="public/images/Harshit-portfolio.png" />
+A fully interactive portfolio that recreates the macOS experience in the browser.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Instead of a traditional scrolling website, visitors can explore projects through Finder, launch apps from a Dock, browse content in Safari, view photos, and interact with a built-in Terminal. The entire portfolio is designed as a mini operating system, making navigation intuitive and engaging through familiar macOS-inspired interactions.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📁 Finder-style project explorer
+- 🖥️ Draggable application windows
+- 🚀 Dock-based app launcher
+- 💻 Interactive Terminal with custom commands
+- 📂 Data-driven file system architecture
+- 🎨 Smooth animations and micro-interactions
+- 📱 Responsive design
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Tailwind CSS
+- Zustand
+- GSAP
+- Lucide React
+- React-PDF
 
-## Expanding the ESLint configuration
+## 🎯 Concept
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Rather than building a conventional portfolio, this project applies operating system design principles to create a more immersive user experience. By leveraging familiar macOS patterns, users can naturally explore projects and content without needing to learn a new interface.
+
+> "Explore it like a Mac."
